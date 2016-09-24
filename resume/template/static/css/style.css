@@ -24,6 +24,7 @@
 .icon-playlistadd:before { content: "\ecae"; }
 .icon-delete:before { content: "\e61b"; }
 .icon-trophy:before { content: "\e80b"; }
+.icon-fitnesscenter:before { content: "\eb6e"; }
 
 span {
     display: inline-block;
@@ -192,12 +193,12 @@ progress::-moz-progress-value {
     margin-top:20px;
     margin-bottom: 10px;
     background-image:url('https://avatars0.githubusercontent.com/u/21081491?v=3&s=460');
-    background-size: 120%;
+    background-size: 100%; /* 修改个人头像背景拉伸比例 */
     background-position:center;
     border-radius:50%;
     border:5px solid #607d8b;
-    width:160px;
-    height:160px;
+    width:180px;  /* 修改个人头像尺寸 */
+    height:180px;  /* 修改个人头像尺寸 */
 }
 
 
